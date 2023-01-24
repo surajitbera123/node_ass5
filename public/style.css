@@ -1,0 +1,63 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+ 
+  #intro{
+ 	background-color: yellowgreen;
+ 	color:red;
+	text-align: center;
+	padding: 10px;
+ 	height: 5%;	
+ } 
+ body { 
+ 	font: 30px;
+    background-color: black;
+}
+ form { 
+ 	background: rgb(219, 60, 60); 
+ 	padding: 3px; 
+ 	position: fixed; 
+ 	bottom: 5px; 
+ 	width: 100%; 
+ }
+ 
+ form input { 
+    background-color: whitesmoke;
+ 	border: 0; 
+ 	padding: 10px; 
+ 	width: 90%; 
+ 	margin-right: 0.5%; 
+ }
+ 
+ form button { 
+ 	width: 9%; 
+	 background: #00e600;
+ 	border: none; 
+ 	padding: 5px; 
+ 	font-size: 20px; 
+ }
+ 
+ #messages { 
+
+ 	margin: 0; 
+ 	padding: 0; 
+ 	
+ }
+ 
+ #messages li { 
+ 	padding: 5px 10px; 
+    color:aliceblue
+ }
+ 
+ #messages li:nth-child(odd) { 
+    background: #b3ffb3;
+    color:brown
+ 	
+ }
+
+
+#list{
+	text-align: right;
+}
